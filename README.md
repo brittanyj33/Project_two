@@ -59,6 +59,8 @@ We then created a trading algorithm for each stock: AAPL, AMZN, and NFLX
 3.	Evaluated the Trading Algo with a resulting a 11% profit with first trade and a 1.4% profit
 4.	Created a Trading Dashboard displaying the key metrics and trade details of the trading algorithm
 
+![image info](./trading_dashboard_project_2.PNG)
+
 ## Future Work
 We were also successful in creating a live function which allows us to get the 100 most recent tweets on a certain subject and perform a vader sentiment analysis on it and provide a mean of the compound score. If we had more time we would have used this data, live stock data, our model from the regressions analysis and our algorithmic trading tool to create a sentiment algorithmic trading tool. (In the Live_data folder)
 
