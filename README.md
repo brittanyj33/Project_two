@@ -33,7 +33,7 @@ To develop a program that analyzes the correlation and potential causation of so
 ![image info](./analysis_process_project_two.PNG)
 
 ## Step 1 - Sentiment Analysis (Working-Code/Equity_Sentiment.ipynb):
-We performed sentiment analysis on all tweets that contained AAPL, NFLX, and/or AMZN (csv files in Tweet data folder). The time frame that we used was three months from April to June 2016. This provided us with a positive, negative, neutral and compound score for each tweet (exported to csv files “ticker”_sentiment.csv in ) We grouped this data by date and used the daily compound score for our regression analysis.
+We performed sentiment analysis on all tweets that contained AAPL, NFLX, and/or AMZN (csv files in Tweet-data folder). The time frame that we used was three months from April to June 2016. This provided us with a positive, negative, neutral and compound score for each tweet (exported to csv files “ticker”_sentiment.csv in ) We grouped this data by date and used the daily compound score for our regression analysis.
 
 ## Step 2 - Data Consolidation (Merged_data Folder)
 We merged the data of the sentiment analysis and that of the stock data. Then cleaned and isolated the overall sentiment (Compound) and the Return value for each ticker. Found the correlation and plotted the data to visualize and see what information we could extract. We also extracted live data from 2016/04/02 - 2016/06/15 and also of the last 30 days of this year and applied sharpe ratio and sortino ratio in hopes to use it for the Algorithmic trading tool for application to real-time stock market data.
