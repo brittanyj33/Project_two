@@ -45,6 +45,7 @@ Values of focus:
 -	Daily return
 -	Lagged daily return
 -	Lagged net sentiment score (derived from sentiment analysis)
+
 Daily return and lagged daily returns were normalized to generate all positive numbers for predictive modelling purposes. The end result – demonstrate in the graphs below – was that the sentiment score of a stock was not an effective predictor of the stock future price fluctuations. As you can see in the graphs below for the Amazon stock the future price forecast for 5- and 8-day lags have the same trend as the actual stock price for the next 5 trading days.
 
 
